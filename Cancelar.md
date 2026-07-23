@@ -1,4 +1,4 @@
-[Atrás ←](/garotec/kubox/wiki/Timbre4.0)
+[Atrás ←](/kubox/wiki/Timbre4.0)
 
 ## Cancelar Factura
 Una vez que se tienen las facturas timbradas, se pueden cancelar.

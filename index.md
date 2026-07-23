@@ -21,4 +21,4 @@ Contamos con servicios web que facilitan la generación del XML para el timbrado
 
 
 ## Documentación ##
-* [Facturación 4.0](/garotec/kubox/wiki/Timbre4.0)
+* [Facturación 4.0](/kubox/Timbre4.0)

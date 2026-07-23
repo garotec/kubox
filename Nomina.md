@@ -1,4 +1,4 @@
-[Atrás ←](/garotec/kubox/wiki/Timbre4.0)
+[Atrás ←](/kubox/wiki/Timbre4.0)
 
 ## Nomina
 El timbrado permite enviar los datos del emisor y los trabajadores, responde  un objeto JSON con la información de los timbres, siempre debe llevar el token en las cabeceras de la petición.
@@ -41,7 +41,7 @@ El timbrado requiere que se envíen los datos del emisor y los conceptos del com
 | `noCertificado`           | __*String*__ Es el número que identifica al certificado de sello digital del emisor, el cual lo incluye en el comprobante fiscal el sistema que utiliza el contribuyente para la emisión              |
 | `periodicidadPago`        | __*String*__ Código de periodicidad de pago (c_PeriodicidadPago)                 |
 | `registroPatronal`        | __*String*__ Numero de registro patronal del IMSS                 |
-| `tipoNomina`              | __*String*__ Código del tipo de nomina a timbrar (c_TipoNomina)                 
+| `tipoNomina`              | __*String*__ Código del tipo de nomina a timbrar (c_TipoNomina)
 | `origenRecurso`           | __*String*__ Clave para indicar el origen de los recursos con los que se paga la nomina (c_OrigenRecurso)                 |
 | `data`                    | __*Array:Trabajador*__ ([Ver Obj Trabajador](#markdown-header-obj-trabajador))                                        |
 
@@ -327,7 +327,7 @@ Si necesitas agregar más percepciones, deducciones y/o otros pagos, a continuac
       "pe_premio_puntualidad_concepto": "fondo ahorro",
       "pe_premio_puntualidad_gravado": 110,
       "pe_premio_puntualidad_excento": 100,
-      
+
       "de_seguro_social_clave": "50000300",
       "de_seguro_social_concepto": "imss",
       "de_seguro_social_importe": 100,
@@ -337,7 +337,7 @@ Si necesitas agregar más percepciones, deducciones y/o otros pagos, a continuac
       "de_otros_clave": "50000305",
       "de_otros_concepto": "otros",
       "de_otros_importe": 100,
-      
+
       "top_subsidio_empleo_clave": "11700001",
       "top_subsidio_empleo_concepto": "Subsidio para el empleo",
       "top_subsidio_empleo_importe": 100,
@@ -416,7 +416,7 @@ Retorna un objeto con la información de la cadena original, el sello, certifica
       "seguro_social": "52079004371",
       "tipoContrato": "01",
       "tipoRegimen": "02",
-      
+
       "pe_aguinaldo_clave": "43200006",
       "pe_aguinaldo_concepto": "Gratificación Anual Aguinaldo",
       "pe_aguinaldo_excento": 500,
@@ -596,7 +596,7 @@ Retorna un objeto con la información de la cadena original, el sello, certifica
       "seguro_social":"52079004371",
       "tipoContrato":"01",
       "tipoRegimen":"02",
-    
+
       "pe_sueldo_clave": ["43200001", "43200002"],
       "pe_sueldo_concepto": ["Sueldo", "Vacaciones"],
       "pe_sueldo_excento": [0, 50],
@@ -617,7 +617,7 @@ Retorna un objeto con la información de la cadena original, el sello, certifica
       "top_subsidio_empleo_concepto": "Subsidio para el empleo",
       "top_subsidio_empleo_causado": 0,
       "top_subsidio_empleo_importe": 0,
-      
+
       "total":4357.23
     }
   ],
