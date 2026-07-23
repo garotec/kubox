@@ -105,186 +105,186 @@ Si necesitas agregar más percepciones, deducciones y/o otros pagos, a continuac
 
 #### Percepciones
 
-| Percepción                              | Campos de la percepción           |
-| --------------------------------------- | --------------------------------- |
-| pe_sueldo_                              | clave, concepto, excento, gravado |
-| pe_comisiones_                          | clave, concepto, excento, gravado |
-| pe_ptu_                                 | clave, concepto, excento, gravado |
-| pe_fondo_ahorro_                        | clave, concepto, excento, gravado |
-| pe_caja_ahorro_                         | clave, concepto, excento, gravado |
-| pe_contribuciones_trabajador_           | clave, concepto, excento, gravado |
-| pe_premio_puntualidad_                  | clave, concepto, excento, gravado |
-| pe_prima_seguro_vida_                   | clave, concepto, excento, gravado |
-| pe_seguro_gastos_medicos_               | clave, concepto, excento, gravado |
-| pe_cuotas_sindicales_                   | clave, concepto, excento, gravado |
-| pe_subsidio_incapacidad_                | clave, concepto, excento, gravado |
-| pe_horas_extras_                        | clave, concepto, excento, gravado |
-| pe_prima_dominical_                     | clave, concepto, excento, gravado |
-| pe_prima_vacacional_                    | clave, concepto, excento, gravado |
-| pe_prima_antiguedad_                    | clave, concepto, excento, gravado, ingresoAcumulable, ingresoNoAcumulable, numAñosServicio, ultimoSueldoMensOrd |
-| pe_pagos_separacion_                    | clave, concepto, excento, gravado |
-| pe_seguro_retiro_                       | clave, concepto, excento, gravado |
-| pe_indemnizacion_                       | clave, concepto, excento, gravado |
-| pe_vales_despensa_                      | clave, concepto, excento, gravado |
-| pe_vales_restaurante_                   | clave, concepto, excento, gravado |
-| pe_vales_gasolina_                      | clave, concepto, excento, gravado |
-| pe_vales_ropa_                          | clave, concepto, excento, gravado |
-| pe_ayuda_renta_                         | clave, concepto, excento, gravado |
-| pe_ayuda_anteojos_                      | clave, concepto, excento, gravado |
-| pe_ayuda_transporte_                    | clave, concepto, excento, gravado |
-| pe_ayuda_gastos_funeral_                | clave, concepto, excento, gravado |
-| pe_otros_ingresos_salarios_             | clave, concepto, excento, gravado |
-| pe_jubilaciones_pensiones_              | clave, concepto, excento, gravado, ingresoAcumulable, ingresoNoAcumulable |
-| pe_acciones_titulos_                    | clave, concepto, excento, gravado |
-| pe_alimentacion_                        | clave, concepto, excento, gravado |
-| pe_habitacion_                          | clave, concepto, excento, gravado |
-| pe_p_asistencia_                        | clave, concepto, excento, gravado |
-| pe_cuota_seguro_social_                 | clave, concepto, excento, gravado |
-| pe_viaticos_                            | clave, concepto, excento, gravado |
-| pe_sueldo_7d_                           | clave, concepto, excento, gravado |
-| pe_aguinaldo_                           | clave, concepto, excento, gravado |
-| pe_reembolso_gastos_medicos_            | clave, concepto, excento, gravado |
-| pe_becas_trabajadores_hijos_            | clave, concepto, excento, gravado |
-| pe_reembolso_funeral_                   | clave, concepto, excento, gravado |
-| pe_ayuda_articulos_escolares_           | clave, concepto, excento, gravado |
-| pe_asimilados_salarios_                 | clave, concepto, excento, gravado |
-| pe_retiro_parcialidades_                | clave, concepto, excento, gravado, ingresoAcumulable, ingresoNoAcumulable, montoDiario |
-| pe_pagos_gratificaciones_ext_parc_      | clave, concepto, excento, gravado |
-| pe_pagos_ext_jubilacion_parc_           | clave, concepto, excento, gravado |
-| pe_pagos_ext_jubilacion_exhi_           | clave, concepto, excento, gravado |
-| pe_dias_descanso_laborado_              | clave, concepto, excento, gravado |
-| pe_dias_descanso_obl_laborado_          | clave, concepto, excento, gravado |
-| pe_prevision_social_                    | clave, concepto, excento, gravado |
+| Clave SAT | Percepción                              | Campos de la percepción           |
+| --------- | --------------------------------------- | --------------------------------- |
+| 001       | pe_sueldo_                              | clave, concepto, excento, gravado |
+| 028       | pe_comisiones_                          | clave, concepto, excento, gravado |
+| 003       | pe_ptu_                                 | clave, concepto, excento, gravado |
+| 005       | pe_fondo_ahorro_                        | clave, concepto, excento, gravado |
+| 006       | pe_caja_ahorro_                         | clave, concepto, excento, gravado |
+| 009       | pe_contribuciones_trabajador_           | clave, concepto, excento, gravado |
+| 010       | pe_premio_puntualidad_                  | clave, concepto, excento, gravado |
+| 011       | pe_prima_seguro_vida_                   | clave, concepto, excento, gravado |
+| 012       | pe_seguro_gastos_medicos_               | clave, concepto, excento, gravado |
+| 013       | pe_cuotas_sindicales_                   | clave, concepto, excento, gravado |
+| 014       | pe_subsidio_incapacidad_                | clave, concepto, excento, gravado |
+| 019       | pe_horas_extras_                        | clave, concepto, excento, gravado |
+| 020       | pe_prima_dominical_                     | clave, concepto, excento, gravado |
+| 021       | pe_prima_vacacional_                    | clave, concepto, excento, gravado |
+| 022       | pe_prima_antiguedad_                    | clave, concepto, excento, gravado, ingresoAcumulable,ingresoNoAcumulable, numAñosServicio, ultimoSueldoMensOrd |
+| 023       | pe_pagos_separacion_                    | clave, concepto, excento, gravado |
+| 024       | pe_seguro_retiro_                       | clave, concepto, excento, gravado |
+| 025       | pe_indemnizacion_                       | clave, concepto, excento, gravado |
+| 029       | pe_vales_despensa_                      | clave, concepto, excento, gravado |
+| 030       | pe_vales_restaurante_                   | clave, concepto, excento, gravado |
+| 031       | pe_vales_gasolina_                      | clave, concepto, excento, gravado |
+| 032       | pe_vales_ropa_                          | clave, concepto, excento, gravado |
+| 033       | pe_ayuda_renta_                         | clave, concepto, excento, gravado |
+| 035       | pe_ayuda_anteojos_                      | clave, concepto, excento, gravado |
+| 036       | pe_ayuda_transporte_                    | clave, concepto, excento, gravado |
+| 037       | pe_ayuda_gastos_funeral_                | clave, concepto, excento, gravado |
+| 038       | pe_otros_ingresos_salarios_             | clave, concepto, excento, gravado |
+| 039       | pe_jubilaciones_pensiones_              | clave, concepto, excento, gravado, ingresoAcumulable,ingresoNoAcumulable |
+| 045       | pe_acciones_titulos_                    | clave, concepto, excento, gravado |
+| 047       | pe_alimentacion_                        | clave, concepto, excento, gravado |
+| 048       | pe_habitacion_                          | clave, concepto, excento, gravado |
+| 027       | pe_p_asistencia_                        | clave, concepto, excento, gravado |
+| 050       | pe_cuota_seguro_social_                 | clave, concepto, excento, gravado |
+| 049       | pe_viaticos_                            | clave, concepto, excento, gravado |
+| 001       | pe_sueldo_7d_                           | clave, concepto, excento, gravado |
+| 002       | pe_aguinaldo_                           | clave, concepto, excento, gravado |
+| 004       | pe_reembolso_gastos_medicos_            | clave, concepto, excento, gravado |
+| 015       | pe_becas_trabajadores_hijos_            | clave, concepto, excento, gravado |
+| 026       | pe_reembolso_funeral_                   | clave, concepto, excento, gravado |
+| 034       | pe_ayuda_articulos_escolares_           | clave, concepto, excento, gravado |
+| 046       | pe_asimilados_salarios_                 | clave, concepto, excento, gravado |
+| 044       | pe_retiro_parcialidades_                | clave, concepto, excento, gravado, ingresoAcumulable,ingresoNoAcumulable, montoDiario |
+| 051       | pe_pagos_gratificaciones_ext_parc_      | clave, concepto, excento, gravado |
+| 052       | pe_pagos_ext_jubilacion_parc_           | clave, concepto, excento, gravado |
+| 053       | pe_pagos_ext_jubilacion_exhi_           | clave, concepto, excento, gravado |
+| 054       | pe_dias_descanso_laborado_              | clave, concepto, excento, gravado |
+| 055       | pe_dias_descanso_obl_laborado_          | clave, concepto, excento, gravado |
+| 056       | pe_prevision_social_                    | clave, concepto, excento, gravado |
 
 #### Deducciones
 
-| Deducción                                        | Campos de la deducción   |
-| ---------------------------------------          | ----------------------   |
-| de_anticipo_salarios_                            | clave, concepto, importe |
-| de_pagos_excesos_trabajador_                     | clave, concepto, importe |
-| de_errores_                                      | clave, concepto, importe |
-| de_perdidas_                                     | clave, concepto, importe |
-| de_averias_                                      | clave, concepto, importe |
-| de_a_ptu_gravado_                                | clave, concepto, importe |
-| de_a_comisiones_gravado_                         | clave, concepto, importe |
-| de_isr_                                          | clave, concepto, importe |
-| de_otros_                                        | clave, concepto, importe |
-| de_aportaciones_fondo_vivienda_                  | clave, concepto, importe |
-| de_descuento_incapacidad_                        | clave, concepto, importe |
-| de_pencion_alimenticia_                          | clave, concepto, importe |
-| de_renta_                                        | clave, concepto, importe |
-| de_credito_vivienda_                             | clave, concepto, importe |
-| de_cuotas_sindicales_                            | clave, concepto, importe |
-| de_ausencia_                                     | clave, concepto, importe |
-| de_cuotas_obrero_patronales_                     | clave, concepto, importe |
-| de_seguro_social_                                | clave, concepto, importe |
-| de_infonavit_                                    | clave, concepto, importe |
-| de_infonacot_                                    | clave, concepto, importe |
-| de_adquisicion_articulos_                        | clave, concepto, importe |
-| de_impuestos_locales_                            | clave, concepto, importe |
-| de_aportaciones_voluntarias_                     | clave, concepto, importe |
-| de_a_aguinaldo_exento_                           | clave, concepto, importe |
-| de_a_aguinaldo_gravado_                          | clave, concepto, importe |
-| de_a_gastos_medicos_exento_                      | clave, concepto, importe |
-| de_a_fondo_ahorro_exento_                        | clave, concepto, importe |
-| de_a_caja_ahorro_exento_                         | clave, concepto, importe |
-| de_a_premios_puntualidad_gravado_                | clave, concepto, importe |
-| de_a_prima_seguro_vida_exento_                   | clave, concepto, importe |
-| de_a_seguro_gastos_medicos_exento_               | clave, concepto, importe |
-| de_a_cuotas_sindicales_exento_                   | clave, concepto, importe |
-| de_a_subsidios_incapacidad_exento_               | clave, concepto, importe |
-| de_a_becas_exento_                               | clave, concepto, importe |
-| de_a_horas_extra_exento_                         | clave, concepto, importe |
-| de_a_horas_extra_gravado_                        | clave, concepto, importe |
-| de_a_prima_dominical_exento_                     | clave, concepto, importe |
-| de_a_prima_dominical_gravado_                    | clave, concepto, importe |
-| de_a_prima_vacacional_exento_                    | clave, concepto, importe |
-| de_a_prima_antiguedad_exento_                    | clave, concepto, importe |
-| de_a_prima_antiguedad_gravado_                   | clave, concepto, importe |
-| de_a_pagos_separacion_exento_                    | clave, concepto, importe |
-| de_a_pagos_separacion_gravado_                   | clave, concepto, importe |
-| de_a_seguro_retiro_exento_                       | clave, concepto, importe |
-| de_a_indemnizaciones_exento_                     | clave, concepto, importe |
-| de_a_indemnizaciones_gravado_                    | clave, concepto, importe |
-| de_a_reembolso_funeral_exento_                   | clave, concepto, importe |
-| de_a_vales_despensa_exento_                      | clave, concepto, importe |
-| de_a_vales_restaurante_exento_                   | clave, concepto, importe |
-| de_a_vales_gasolina_exento_                      | clave, concepto, importe |
-| de_a_vales_ropa_exento_                          | clave, concepto, importe |
-| de_a_ayuda_renta_exento_                         | clave, concepto, importe |
-| de_a_ayuda_articulos_escolares_exento_           | clave, concepto, importe |
-| de_a_ayuda_anteojos_exento_                      | clave, concepto, importe |
-| de_a_ayuda_transporte_exento_                    | clave, concepto, importe |
-| de_a_otros_ingresos_salarios_exento_             | clave, concepto, importe |
-| de_a_otros_ingresos_salarios_gravado_            | clave, concepto, importe |
-| de_a_jubilaciones_pensiones_exento_              | clave, concepto, importe |
-| de_a_jubilaciones_pensiones_gravado_             | clave, concepto, importe |
-| de_a_pagos_separacion_acumulable_                | clave, concepto, importe |
-| de_a_pagos_separacion_no_acumulable_             | clave, concepto, importe |
-| de_a_jubilaciones_pensiones_par_gravado_         | clave, concepto, importe |
-| de_a_subsidio_empleo_                            | clave, concepto, importe |
-| de_a_ingresos_acciones_titulos_exento_           | clave, concepto, importe |
-| de_a_ingresos_acciones_titulos_gravado_          | clave, concepto, importe |
-| de_a_alimentacion_exento_                        | clave, concepto, importe |
-| de_a_alimentacion_gravado_                       | clave, concepto, importe |
-| de_a_habitacion_exento_                          | clave, concepto, importe |
-| de_a_habitacion_gravado_                         | clave, concepto, importe |
-| de_a_premios_asistencia_                         | clave, concepto, importe |
-| de_a_viaticos_gravados_                          | clave, concepto, importe |
-| de_a_viaticos_                                   | clave, concepto, importe |
-| de_a_fondo_ahorro_gravado_                       | clave, concepto, importe |
-| de_a_caja_ahorro_gravado_                        | clave, concepto, importe |
-| de_a_prima_seguro_vida_gravado_                  | clave, concepto, importe |
-| de_a_seguro_gastos_medicos_gravado_              | clave, concepto, importe |
-| de_a_subsidios_incapacidad_gravado_              | clave, concepto, importe |
-| de_a_becas_gravado_                              | clave, concepto, importe |
-| de_a_seguro_retiro_gravado_                      | clave, concepto, importe |
-| de_a_vales_despensa_gravado_                     | clave, concepto, importe |
-| de_a_vales_restaurante_gravado_                  | clave, concepto, importe |
-| de_a_vales_gasolina_gravado_                     | clave, concepto, importe |
-| de_a_vales_ropa_gravado_                         | clave, concepto, importe |
-| de_a_ayuda_renta_gravado_                        | clave, concepto, importe |
-| de_a_ayuda_articulos_escolares_gravado_          | clave, concepto, importe |
-| de_a_ayuda_anteojos_gravado_                     | clave, concepto, importe |
-| de_a_ayuda_transporte_gravado_                   | clave, concepto, importe |
-| de_a_ayuda_gastos_funeral_gravado_               | clave, concepto, importe |
-| de_a_ingresos_asimilados_salarios_gravados_      | clave, concepto, importe |
-| de_a_viaticos_exentos_                           | clave, concepto, importe |
-| de_isr_retenido_ejercicio_anterior_              | clave, concepto, importe |
-| de_a_ptu_exento_                                 | clave, concepto, importe |
-| de_cesantia_vejez_                               | clave, concepto, importe |
-| de_cuotas_constitucion_cajas_ahorro_             | clave, concepto, importe |
-| de_a_contribuciones_cargo_trabajador_exento_     | clave, concepto, importe |
-| de_a_prima_vacacional_gravado_                   | clave, concepto, importe |
-| de_a_cuotas_seguridad_social_exento_             | clave, concepto, importe |
-| de_a_ayuda_gastos_funeral_exento_                | clave, concepto, importe |
-| de_a_jubilaciones_pensiones_par_exento_          | clave, concepto, importe |
-| de_a_pagos_gratificaciones_ext_parc_gravados_    | clave, concepto, importe |
-| de_a_pagos_ext_jubilacion_parc_gravados_         | clave, concepto, importe |
-| de_a_pagos_ext_jubilacion_parc_exentos_          | clave, concepto, importe |
-| de_a_pagos_ext_jubilacion_exhi_gravados_         | clave, concepto, importe |
-| de_a_pagos_ext_jubilacion_exhi_exentos_          | clave, concepto, importe |
-| de_ajuste_subsidio_causado_                      | clave, concepto, importe |
-| de_a_otros_pagos_no_sueldos_salarios_asimilados_ | clave, concepto, importe |
-| de_a_ingresos_sueldos_salarios_gravados_         | clave, concepto, importe |
-| de_a_dias_descanso_laborados_gravado_            | clave, concepto, importe |
-| de_a_dias_descanso_laborados_exento_             | clave, concepto, importe |
-| de_a_dias_descanso_obl_laborados_gravado_        | clave, concepto, importe |
-| de_a_dias_descanso_obl_laborados_exento_         | clave, concepto, importe |
+| Clave SAT | Deducción                                        | Campos de la deducción   |
+| --------- | ---------------------------------------          | ----------------------   |
+| 012       | de_anticipo_salarios_                            | clave, concepto, importe |
+| 013       | de_pagos_excesos_trabajador_                     | clave, concepto, importe |
+| 014       | de_errores_                                      | clave, concepto, importe |
+| 015       | de_perdidas_                                     | clave, concepto, importe |
+| 016       | de_averias_                                      | clave, concepto, importe |
+| 027       | de_a_ptu_gravado_                                | clave, concepto, importe |
+| 053       | de_a_comisiones_gravado_                         | clave, concepto, importe |
+| 002       | de_isr_                                          | clave, concepto, importe |
+| 004       | de_otros_                                        | clave, concepto, importe |
+| 005       | de_aportaciones_fondo_vivienda_                  | clave, concepto, importe |
+| 006       | de_descuento_incapacidad_                        | clave, concepto, importe |
+| 007       | de_pencion_alimenticia_                          | clave, concepto, importe |
+| 008       | de_renta_                                        | clave, concepto, importe |
+| 010       | de_credito_vivienda_                             | clave, concepto, importe |
+| 019       | de_cuotas_sindicales_                            | clave, concepto, importe |
+| 020       | de_ausencia_                                     | clave, concepto, importe |
+| 021       | de_cuotas_obrero_patronales_                     | clave, concepto, importe |
+| 001       | de_seguro_social_                                | clave, concepto, importe |
+| 009       | de_infonavit_                                    | clave, concepto, importe |
+| 011       | de_infonacot_                                    | clave, concepto, importe |
+| 017       | de_adquisicion_articulos_                        | clave, concepto, importe |
+| 022       | de_impuestos_locales_                            | clave, concepto, importe |
+| 023       | de_aportaciones_voluntarias_                     | clave, concepto, importe |
+| 024       | de_a_aguinaldo_exento_                           | clave, concepto, importe |
+| 025       | de_a_aguinaldo_gravado_                          | clave, concepto, importe |
+| 028       | de_a_gastos_medicos_exento_                      | clave, concepto, importe |
+| 029       | de_a_fondo_ahorro_exento_                        | clave, concepto, importe |
+| 030       | de_a_caja_ahorro_exento_                         | clave, concepto, importe |
+| 032       | de_a_premios_puntualidad_gravado_                | clave, concepto, importe |
+| 033       | de_a_prima_seguro_vida_exento_                   | clave, concepto, importe |
+| 034       | de_a_seguro_gastos_medicos_exento_               | clave, concepto, importe |
+| 035       | de_a_cuotas_sindicales_exento_                   | clave, concepto, importe |
+| 036       | de_a_subsidios_incapacidad_exento_               | clave, concepto, importe |
+| 037       | de_a_becas_exento_                               | clave, concepto, importe |
+| 038       | de_a_horas_extra_exento_                         | clave, concepto, importe |
+| 039       | de_a_horas_extra_gravado_                        | clave, concepto, importe |
+| 040       | de_a_prima_dominical_exento_                     | clave, concepto, importe |
+| 041       | de_a_prima_dominical_gravado_                    | clave, concepto, importe |
+| 042       | de_a_prima_vacacional_exento_                    | clave, concepto, importe |
+| 044       | de_a_prima_antiguedad_exento_                    | clave, concepto, importe |
+| 045       | de_a_prima_antiguedad_gravado_                   | clave, concepto, importe |
+| 046       | de_a_pagos_separacion_exento_                    | clave, concepto, importe |
+| 047       | de_a_pagos_separacion_gravado_                   | clave, concepto, importe |
+| 048       | de_a_seguro_retiro_exento_                       | clave, concepto, importe |
+| 049       | de_a_indemnizaciones_exento_                     | clave, concepto, importe |
+| 050       | de_a_indemnizaciones_gravado_                    | clave, concepto, importe |
+| 051       | de_a_reembolso_funeral_exento_                   | clave, concepto, importe |
+| 054       | de_a_vales_despensa_exento_                      | clave, concepto, importe |
+| 055       | de_a_vales_restaurante_exento_                   | clave, concepto, importe |
+| 056       | de_a_vales_gasolina_exento_                      | clave, concepto, importe |
+| 057       | de_a_vales_ropa_exento_                          | clave, concepto, importe |
+| 058       | de_a_ayuda_renta_exento_                         | clave, concepto, importe |
+| 059       | de_a_ayuda_articulos_escolares_exento_           | clave, concepto, importe |
+| 060       | de_a_ayuda_anteojos_exento_                      | clave, concepto, importe |
+| 061       | de_a_ayuda_transporte_exento_                    | clave, concepto, importe |
+| 063       | de_a_otros_ingresos_salarios_exento_             | clave, concepto, importe |
+| 064       | de_a_otros_ingresos_salarios_gravado_            | clave, concepto, importe |
+| 065       | de_a_jubilaciones_pensiones_exento_              | clave, concepto, importe |
+| 066       | de_a_jubilaciones_pensiones_gravado_             | clave, concepto, importe |
+| 067       | de_a_pagos_separacion_acumulable_                | clave, concepto, importe |
+| 068       | de_a_pagos_separacion_no_acumulable_             | clave, concepto, importe |
+| 070       | de_a_jubilaciones_pensiones_par_gravado_         | clave, concepto, importe |
+| 071       | de_a_subsidio_empleo_                            | clave, concepto, importe |
+| 072       | de_a_ingresos_acciones_titulos_exento_           | clave, concepto, importe |
+| 073       | de_a_ingresos_acciones_titulos_gravado_          | clave, concepto, importe |
+| 074       | de_a_alimentacion_exento_                        | clave, concepto, importe |
+| 075       | de_a_alimentacion_gravado_                       | clave, concepto, importe |
+| 076       | de_a_habitacion_exento_                          | clave, concepto, importe |
+| 077       | de_a_habitacion_gravado_                         | clave, concepto, importe |
+| 078       | de_a_premios_asistencia_                         | clave, concepto, importe |
+| 080       | de_a_viaticos_gravados_                          | clave, concepto, importe |
+| 081       | de_a_viaticos_                                   | clave, concepto, importe |
+| 082       | de_a_fondo_ahorro_gravado_                       | clave, concepto, importe |
+| 083       | de_a_caja_ahorro_gravado_                        | clave, concepto, importe |
+| 084       | de_a_prima_seguro_vida_gravado_                  | clave, concepto, importe |
+| 085       | de_a_seguro_gastos_medicos_gravado_              | clave, concepto, importe |
+| 086       | de_a_subsidios_incapacidad_gravado_              | clave, concepto, importe |
+| 087       | de_a_becas_gravado_                              | clave, concepto, importe |
+| 088       | de_a_seguro_retiro_gravado_                      | clave, concepto, importe |
+| 089       | de_a_vales_despensa_gravado_                     | clave, concepto, importe |
+| 090       | de_a_vales_restaurante_gravado_                  | clave, concepto, importe |
+| 091       | de_a_vales_gasolina_gravado_                     | clave, concepto, importe |
+| 092       | de_a_vales_ropa_gravado_                         | clave, concepto, importe |
+| 093       | de_a_ayuda_renta_gravado_                        | clave, concepto, importe |
+| 094       | de_a_ayuda_articulos_escolares_gravado_          | clave, concepto, importe |
+| 095       | de_a_ayuda_anteojos_gravado_                     | clave, concepto, importe |
+| 096       | de_a_ayuda_transporte_gravado_                   | clave, concepto, importe |
+| 097       | de_a_ayuda_gastos_funeral_gravado_               | clave, concepto, importe |
+| 098       | de_a_ingresos_asimilados_salarios_gravados_      | clave, concepto, importe |
+| 100       | de_a_viaticos_exentos_                           | clave, concepto, importe |
+| 101       | de_isr_retenido_ejercicio_anterior_              | clave, concepto, importe |
+| 026       | de_a_ptu_exento_                                 | clave, concepto, importe |
+| 003       | de_cesantia_vejez_                               | clave, concepto, importe |
+| 018       | de_cuotas_constitucion_cajas_ahorro_             | clave, concepto, importe |
+| 031       | de_a_contribuciones_cargo_trabajador_exento_     | clave, concepto, importe |
+| 043       | de_a_prima_vacacional_gravado_                   | clave, concepto, importe |
+| 052       | de_a_cuotas_seguridad_social_exento_             | clave, concepto, importe |
+| 062       | de_a_ayuda_gastos_funeral_exento_                | clave, concepto, importe |
+| 069       | de_a_jubilaciones_pensiones_par_exento_          | clave, concepto, importe |
+| 102       | de_a_pagos_gratificaciones_ext_parc_gravados_    | clave, concepto, importe |
+| 103       | de_a_pagos_ext_jubilacion_parc_gravados_         | clave, concepto, importe |
+| 104       | de_a_pagos_ext_jubilacion_parc_exentos_          | clave, concepto, importe |
+| 105       | de_a_pagos_ext_jubilacion_exhi_gravados_         | clave, concepto, importe |
+| 106       | de_a_pagos_ext_jubilacion_exhi_exentos_          | clave, concepto, importe |
+| 107       | de_ajuste_subsidio_causado_                      | clave, concepto, importe |
+| 079       | de_a_otros_pagos_no_sueldos_salarios_asimilados_ | clave, concepto, importe |
+| 099       | de_a_ingresos_sueldos_salarios_gravados_         | clave, concepto, importe |
+| 108       | de_a_dias_descanso_laborados_gravado_            | clave, concepto, importe |
+| 109       | de_a_dias_descanso_laborados_exento_             | clave, concepto, importe |
+| 110       | de_a_dias_descanso_obl_laborados_gravado_        | clave, concepto, importe |
+| 111       | de_a_dias_descanso_obl_laborados_exento_         | clave, concepto, importe |
 
 #### Otros pagos
 
-| Otro pago                               | Campos otros pagos       |
-| --------------------------------------- | ------------------------ |
-| top_reintegro_isr_                      | clave, concepto, importe |
-| top_subsidio_empleo_                    | clave, concepto, importe, causado |
-| top_viaticos_                           | clave, concepto, importe |
-| top_saldo_favor_compensacion_           | clave, concepto, importe, año, importe, remanenteSalFav, saldoAFavor |
-| top_reintegro_isr_ret_ejer_ant_         | clave, concepto, importe |
-| top_otros_pagos_                        | clave, concepto, importe |
-| top_alimentos_bienes_                   | clave, concepto, importe |
-| top_isr_ajustado_subsidio_              | clave, concepto, importe |
-| top_subsidio_efectivamente_entregado_   | clave, concepto, importe |
+| Clave SAT | Otro pago                               | Campos otros pagos       |
+| --------- | --------------------------------------- | ------------------------ |
+| 001       | top_reintegro_isr_                      | clave, concepto, importe |
+| 002       | top_subsidio_empleo_                    | clave, concepto, importe, causado |
+| 003       | top_viaticos_                           | clave, concepto, importe |
+| 004       | top_saldo_favor_compensacion_           | clave, concepto, importe, año, importe, remanenteSalFav, saldoAFavor |
+| 005       | top_reintegro_isr_ret_ejer_ant_         | clave, concepto, importe |
+| 999       | top_otros_pagos_                        | clave, concepto, importe |
+| 006       | top_alimentos_bienes_                   | clave, concepto, importe |
+| 007       | top_isr_ajustado_subsidio_              | clave, concepto, importe |
+| 008       | top_subsidio_efectivamente_entregado_   | clave, concepto, importe |
 
 ---
 
