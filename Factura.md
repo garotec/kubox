@@ -1,4 +1,4 @@
-[Atrás ←](/kubox/wiki/Timbre4.0)
+[Atrás ←](/kubox/Timbre4.0)
 
 ## Timbrar
 El timbrado permite enviar la datos del emisor y del receptor, responde  un objeto JSON con la información del timbre, siempre debe llevar el token en las cabeceras de la petición.

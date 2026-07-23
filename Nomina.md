@@ -1,4 +1,4 @@
-[Atrás ←](/kubox/wiki/Timbre4.0)
+[Atrás ←](/kubox/Timbre4.0)
 
 ## Nomina
 El timbrado permite enviar los datos del emisor y los trabajadores, responde  un objeto JSON con la información de los timbres, siempre debe llevar el token en las cabeceras de la petición.

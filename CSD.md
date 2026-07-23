@@ -1,4 +1,4 @@
-[Atrás ←](/kubox/wiki/Timbre4.0)
+[Atrás ←](/kubox/Timbre4.0)
 
 ## Preparación del Certificado de Sello Digital (CSD)
 
